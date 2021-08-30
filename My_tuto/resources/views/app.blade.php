@@ -11,6 +11,11 @@
 
  @yield('content')
  
- <footer>&copy; DEVMY Root</footer>
+ <footer>&copy; DEVMY Root
+    @if(Route::is('home'))
+        <h1>THIS IS HOME PAGE</h1>
+    
+    @endif
+ </footer>
     </body>
 </html>

@@ -6,4 +6,7 @@
 <p><small>this is a time <a href={{route('ab')}}>About</a> </small></p>    
 </center>
 {{config('project.slogan')}}
+
+
 @endsection
+
