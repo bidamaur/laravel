@@ -7,6 +7,6 @@
 </center>
 {{config('project.slogan')}}
 
-
+<img src="./img/livre.jpg">
 @endsection
 
