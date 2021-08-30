@@ -4,11 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>HALLO WORD</title>
+        <title>@yield('title',env('app_name'))</title>
 
     </head>
     <body >
+
  @yield('content')
+ 
  <footer>&copy; DEVMY Root</footer>
     </body>
 </html>
