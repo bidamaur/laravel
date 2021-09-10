@@ -1,4 +1,4 @@
-@extends('app')
+@extends('app',["pageTitle"=> 'About US'])
 @section('title','About us')
 
 @section('content')
